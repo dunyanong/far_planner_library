@@ -79,6 +79,7 @@ add_library(${PROJECT_NAME}_lib STATIC
   src/scan_handler.cpp
   src/graph_msger.cpp
   src/terrain_planner.cpp
+  src/far_planner_util.cpp
 )
 
 target_include_directories(${PROJECT_NAME}_lib PUBLIC
